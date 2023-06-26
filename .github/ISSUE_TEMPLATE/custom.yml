@@ -1,5 +1,5 @@
-name: 💡 Custom Issue Form
-description: A custom form with different fields
+name: KudlaCodes Custom Issue Form
+description: For the really special requests
 body:
   - type: input
     id: contact
