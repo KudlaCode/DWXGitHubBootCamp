@@ -5,14 +5,14 @@ on:
     branches: [ main ]
     paths: [ hello-world-docker/** ]
   workflow_dispatch:
-
+  
 jobs:
   test-action:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3.0.2
-        
+    
       - name: Run my own container action
         id: hello-action
         uses: ./hello-world-docker-action
