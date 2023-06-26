@@ -1,1 +1,5 @@
 blank_issues_enabled: false
+contact_links:
+  - name: Discussions
+    url:  https://github.com/KudlaCode/DWXGitHubBootCamp/discussions/2
+    about: Please discuss more and code less, coding is dangerous
