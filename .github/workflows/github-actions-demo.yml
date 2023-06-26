@@ -29,3 +29,9 @@ jobs:
         run: |
           echo "The repository ${{ github.repository }} contains the following files:"
           tree
+ test:
+      runs-on: ubuntu-latest
+      steps:
+        - run: |
+            echo "adsasd asd"
+      
